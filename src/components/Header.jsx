@@ -8,7 +8,7 @@ function Header() {
             <h4>BUILD YOUR OWN GIFT!</h4>
         </div>
         <div className='nav2'>
-            <input type='text' className='serch' value="Search Honest"></input>
+            <input type='text' className='serch'></input>
             <Link to="/">
             <h3>HONEST</h3>
             </Link>
