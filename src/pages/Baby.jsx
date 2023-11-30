@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-
+import Header from "../components/Header";
 
 function Baby() {
   const babies =[
@@ -98,6 +98,7 @@ function Baby() {
   ];
   return (
     <div>
+      <Header/>
       <h1>ALL BABY CARE PRODUCTS</h1>
       <div className="grid">
       <ul>

@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../components/Header";
 
 function Allwipes() {
   const wipes = [
@@ -86,6 +87,7 @@ function Allwipes() {
 
   return (
     <div className="allWipepage">
+      <Header/>
       <h2>ALL WIPES</h2>
       <ul>
         {wipes.map((wipe) => (

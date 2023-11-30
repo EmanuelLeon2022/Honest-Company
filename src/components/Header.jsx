@@ -1,25 +1,45 @@
 import React from 'react'
+import '../App.css'
 import { Link } from 'react-router-dom'
 
 function Header() {
   return (
-    <div>
-        <div className='nav1'>
-            <h4>BUILD YOUR OWN GIFT!</h4>
-        </div>
-        <div className='nav2'>
-            <input type='text' className='serch'></input>
-            <Link to="/">
-            <h3>HONEST</h3>
-            </Link>
-            <Link to="/">
-            <h4>sign up</h4>
-            </Link>
-            <Link to="/">
-            <h4>cart</h4>
-            </Link>
-        </div>
-    </div>
+    <div className="header">
+    <header className="nav1">
+      <p>BUILD YOUR OWN GIFT!</p>
+    </header>
+
+    <nav className="nav2">
+      <h4>search</h4>
+      <img
+       className='logo'
+        src={
+          "https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/original/79667e32-f5aa-47c4-a5da-8ef2dd420f41.png"
+        }
+        alt=""
+      />
+      <h4>sign up</h4>
+      <h4>cart</h4>
+    </nav>
+
+    <nav className="nav3">
+      <Link to="/">
+      <p>Subscriptions</p>
+      </Link>
+      <Link to="/Baby">
+      <p>Baby + Diapers</p>
+      </Link>
+      <Link to="/Allwipes">
+      <p>Wipes</p>
+      </Link>
+      <Link>
+      <p>Bath + Body</p>
+      </Link>
+      <Link>
+      <p>Skincare</p>
+      </Link>
+    </nav>
+  </div>
   )
 }
 
