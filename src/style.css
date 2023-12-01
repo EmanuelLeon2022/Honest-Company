@@ -220,7 +220,7 @@ a{
 /* Wipe stuff */
 .allWipepage {
   text-align: center;
-  margin: 3%;
+  /* margin: 3%; */
 }
 
 .wipeTag{

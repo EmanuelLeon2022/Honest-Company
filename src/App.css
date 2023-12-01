@@ -5,6 +5,17 @@
   display: flex;
   flex-direction: column;
 }
+/* header .logo{
+  width: 50px;
+  height: 50px;
+} */
+.logo{
+  width: 25%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  /* padding: 15px; */
+}
 .nav1 {
   background-color: #7bb5cb;
   display: flex;
@@ -190,9 +201,131 @@
   border-top: solid black 1px;
 }
 
-.logo{
-  width: 10%;
-  height: 10%;
+.category-collection {
   display: flex;
-  padding: 15px;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.category {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.category-image {
+  margin: 0rem .9rem;
+  width: 17rem;
+  cursor: pointer;
+}
+
+.category-name {
+  padding: 1rem 0;
+  margin: auto;
+  color: #4a4643;
+  cursor: pointer;
+  font-size: .8rem;
+}
+
+.category:hover .category-name {
+  color: black;
+}
+.skincare-banner {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 1rem auto 0;
+}
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 90%;
+  max-width: 72rem;
+}
+.sorting-dropdowns {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.filter-by, .sort-by {
+  padding: 7px 20px;
+  border: 1px black solid;
+  background-color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.filter-by {
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.sort-by {
+  margin-left: 1rem;
+}
+.product-list {
+  align-self: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product * {
+  margin: auto;
+}
+
+.product {
+  width: 25%;
+  min-width: 10rem;
+  margin: 2rem 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  object-fit: contain;
+}
+
+.product-image-box {
+  display: flex;
+  object-fit: contain;
+  width: 100%;
+  margin: auto;
+}
+.product-image {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+.product-tag {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: .9rem;
+  font-weight: 600;
+  padding: 1px 10px;
+  background-color: rgb(231, 224, 224);
+  position: absolute;
+}
+
+.product-name {
+  text-align: center;
+}
+.product-price {
+  margin: 1rem 0;
+  font-weight: 600;
+}
+.product-options {
+  margin-top: 1rem;
+  font-size: .8rem;
+  color: rgb(44, 44, 44)
+}
+
+img {
+  object-fit:none;
+  object-position:left;
 }

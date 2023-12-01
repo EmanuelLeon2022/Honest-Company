@@ -14,7 +14,7 @@ function Header() {
       <img
        className='logo'
         src={
-          "https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/original/79667e32-f5aa-47c4-a5da-8ef2dd420f41.png"
+          "https://www.honest.com/on/demandware.static/Sites-honest-Site/-/default/dw500263c2/images/svg-icons/logo-lg.svg"
         }
         alt=""
       />
@@ -32,10 +32,10 @@ function Header() {
       <Link to="/Allwipes">
       <p>Wipes</p>
       </Link>
-      <Link>
+      <Link to="/Allwipes">
       <p>Bath + Body</p>
       </Link>
-      <Link>
+      <Link to="/Skin">
       <p>Skincare</p>
       </Link>
     </nav>

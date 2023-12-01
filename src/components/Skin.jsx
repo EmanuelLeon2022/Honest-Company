@@ -1,9 +1,17 @@
 import React from 'react'
+import Header from './Header'
+import SortingDropdowns from './SortingDropdowns/SortingDropdowns'
+import ProductList from './ProductList/ProductList'
+import SkincareBanner from './SkincareHeader/SkincareBanner/SkincareBanner'
+
 
 function Skin() {
   return (
     <div>
-      <h1>ALL SKINCARE PRODUCTS</h1>
+        <Header/>
+        <SkincareBanner/>
+        <SortingDropdowns />
+        <ProductList />
     </div>
   )
 }

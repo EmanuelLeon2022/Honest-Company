@@ -1,0 +1,59 @@
+.product-list {
+    align-self: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product * {
+    margin: auto;
+}
+
+.product {
+    width: 25%;
+    min-width: 10rem;
+    margin: 2rem 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    object-fit: contain;
+}
+
+.product-image-box {
+    display: flex;
+    object-fit: contain;
+    width: 100%;
+    margin: auto;
+}
+.product-image {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+.product-tag {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .9rem;
+    font-weight: 600;
+    padding: 1px 10px;
+    background-color: rgb(231, 224, 224);
+    position: absolute;
+}
+
+.product-name {
+    text-align: center;
+}
+.product-price {
+    margin: 1rem 0;
+    font-weight: 600;
+}
+.product-options {
+    margin-top: 1rem;
+    font-size: .8rem;
+    color: rgb(44, 44, 44)
+}
+
+img {
+    object-fit:none;
+    object-position:left;
+}
